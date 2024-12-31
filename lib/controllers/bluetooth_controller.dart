@@ -24,8 +24,8 @@ class BluetoothController extends GetxController {
 
       // Start scanning with a timeout
       await FlutterBluePlus.startScan(
-        withServices: [Guid("180D")], // Example service UUID
-        withNames: ["Bluno"], // Example device name
+        // withServices: [Guid("180D")], // Example service UUID
+        // withNames: ["Bluno"], // Example device name
         timeout: Duration(seconds: 15),
       );
 
